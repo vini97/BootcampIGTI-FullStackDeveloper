@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap">
+    <title>Color Selector</title>
+</head>
+<body>
+    <h1>Color Selector</h1>
+    <h3>Change the range to change the color</h3>
+
+    <div class = "slideInfo">
+        <div class = "red">(R) Red
+        <input type='range' min='0' max='255' id='rangeRed' value='0' class='slider'>
+        <input type='text' id='valueRed' class='textBox'> <br>
+        </div>
+        
+        <div class = "green">(G) Green
+        <input type='range' min='0' max='255' id='rangeGreen' value='0' class='slider'>
+        <input type='text' id='valueGreen' class='textBox'> <br>
+        </div>
+        
+        <div class = "blue">(B) Blue
+        <input type='range' min='0' max='255' id='rangeBlue' value='0' class='slider'>
+        <input type='text' id='valueBlue' class='textBox'> <br>
+        </div>
+    
+        <div class="colorRGB"></div>
+    </div>    
+    <p>
+        <a href="https://www.linkedin.com/in/vinicius-viana-de-souza/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/vini97/BootcampIGTI-Fullstack-Developer/tree/master/Challange" target="_blank">Github</a>
+    </p>    
+    <script src = './js/script.js'></script>
+</body>
+</html>
