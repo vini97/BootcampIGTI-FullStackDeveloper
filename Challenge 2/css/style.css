@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(26, 23, 29);
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+    border: 3px solid black;    
+}
+
+h5{
+    text-align: center;
+    color: black;
+}
+
+.info-container{
+    display: flex;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.users-statistics{
+    color: black;
+    width: 200px;
+    height: 300px;
+    display: grid;
+    background-color: lightblue;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 8px;
+    border: 3px solid black;
+}
+
+.info{
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.content{
+    margin-top: 22px;
+}
+
+.pic{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+    border-radius: 50%;
+  }
+
+  .users-list{
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: lightblue;
+  }
+
+#inputUser{
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 935px;
+  }

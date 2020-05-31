@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Challenge 2</title>
+</head>
+<body>
+    <div class = 'container'>
+    <h1> Search for users </h1>
+    
+        <input type='text' id='inputUser' placeholder="Buscar"/>
+
+        <div class="info-container">
+            <!-- Users list -->
+            <div class = 'users-list'>
+                <h5>(<span id="countUsers"></span>) Users found</h5>
+                <div id = 'tabUsers'></div>
+            </div>
+            <!-- Statistics -->
+            <div class = 'users-statistics'>
+                <h5>Statistics</h5>
+                <h7><br>Masculine: <span id="totalMasc"></span></h7>
+                <h7><br>Feminine: <span id="totalFem"></span></h7>
+                <h7><br>Sum of ages: <span id="totalSumAges"></span></h7>
+                <h7><br>Average age : <span id="totalAverageAge"></span></h7>
+            </div>
+        </div>
+    </div>
+    <script src = './js/script.js'></script>
+</body>
+</html>
